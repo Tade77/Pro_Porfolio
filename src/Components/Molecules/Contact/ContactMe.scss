@@ -1,0 +1,11 @@
+.info {
+  @apply ml-[108px] mt-[31px] mb-[218px];
+
+  &__me {
+    @apply whitespace-pre mb-[31px];
+  }
+
+  &__chat {
+    @apply bg-[#2F80ED] w-[124px] h-[40px] rounded-[4px] text-[white] transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300;
+  }
+}

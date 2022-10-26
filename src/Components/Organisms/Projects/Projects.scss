@@ -1,0 +1,28 @@
+.project {
+  @apply flex flex-row ml-[217px];
+
+  &__image {
+    @apply w-[340px] h-[340px] bg-[#F1E4FF];
+  }
+
+  &__pics {
+    @apply w-[313.95px] h-[479.81px] p-[59px];
+  }
+
+  &__description {
+    @apply ml-[97px] mb-[144px];
+  }
+
+  &__title {
+    @apply text-[40px] leading-[54px] font-extrabold text-[#171717] mb-[32px];
+  }
+
+  &__article {
+    @apply text-[18px] leading-[32px] font-normal text-[#4F4F4F] w-[477px] h-[160px] mb-[32px];
+  }
+}
+
+.connect__btn {
+  @apply text-[#2F80ED] text-[20px] leading-[30px] font-bold;
+}
+// .flex flex-row ml-[217px]

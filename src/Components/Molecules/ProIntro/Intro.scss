@@ -1,0 +1,11 @@
+.pro__header {
+  @apply ml-[217px];
+
+  &__intro {
+    @apply text-[18px] leading-[18px] text-[#171717] font-light mb-[16px];
+  }
+
+  &__txt {
+    @apply whitespace-pre text-[48px] leading-[58px] font-extrabold mb-[64px];
+  }
+}

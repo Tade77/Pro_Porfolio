@@ -1,0 +1,10 @@
+.contactBtn {
+  @apply w-[1024px] h-[182px] bg-[#2F80ED] cursor-pointer rounded-[16px] text-center ml-[208px] mb-[246px] mt-[267px] transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 duration-300;
+
+  &__btn {
+    @apply pt-[32px] text-[36px] leading-[36px] text-[#F9FAFB] mb-[8px] font-light;
+  }
+}
+.contactBtn__web {
+  @apply text-[40px] leading-[58px] text-[#F9FAFB] font-extrabold;
+}

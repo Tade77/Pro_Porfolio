@@ -1,0 +1,7 @@
+.pics {
+  @apply w-[294px] h-[397px] shadow-lg rounded-[5px] shadow-[#2F80ED] absolute bottom-20 z-10;
+
+  &__shadow {
+    @apply bg-[#2F80ED] w-[294px] h-[397px] relative left-8 bottom-4 shadow-lg rounded-[5px];
+  }
+}

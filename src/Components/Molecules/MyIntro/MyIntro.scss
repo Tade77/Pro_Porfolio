@@ -1,0 +1,15 @@
+.header {
+  @apply mt-[99px] flex justify-evenly;
+
+  &__hey {
+    @apply ml-[108px] text-[48px];
+  }
+
+  &__am {
+    @apply text-[#171717] font-bold ml-[108px] text-[48px];
+  }
+
+  &__name {
+    @apply text-blue-800;
+  }
+}

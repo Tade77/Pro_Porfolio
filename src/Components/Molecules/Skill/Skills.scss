@@ -1,0 +1,11 @@
+.skills {
+  @apply ml-[133px];
+
+  &__lang {
+    @apply text-[24px] leading-[24px] font-bold text-[#4f4f4f] mb-[10px];
+  }
+
+  &__langs {
+    @apply mb-[67px] text-[18px] leading-[18px] font-medium text-[#171717];
+  }
+}
