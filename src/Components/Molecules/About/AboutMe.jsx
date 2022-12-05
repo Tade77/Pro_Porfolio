@@ -4,10 +4,7 @@ import Skills from "../Skill/Skills";
 import "./AboutMe.scss";
 
 const AboutMe = () => {
-  const aboutMe = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet nunc 
-  ultrices ac mauris, quis erat consequat odio. Pretium aliquet nunc eget consectetur diam felis justo. Tempor ornare nunc facilisi amet. Sed dui 
-  orci, ut pharetra. Vulputate id lectus laoreet sagittis non.
-  Pharetra purus quam mauris malesuada etiam nullam. Ultrices nec in massa consequat erat iaculis leo. `;
+  const aboutMe = `I'm a front-end developer, typically a problem-solver with passion for creating and making things work behind the scene. I have a broad skills in HTML, CSS, JavaScript and React. I'm hardworking and dedicated `;
   return (
     <div className="about">
       <div className="about__me">

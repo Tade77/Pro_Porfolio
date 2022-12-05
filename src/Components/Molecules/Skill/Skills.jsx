@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <p className="skills__lang">Languages</p>
-      <aside className="skills__langs">
+      <aside className="skills__langs  ">
         <p> &gt; HTML</p>
         <p>&gt; CSS</p>
         <p>&gt; JAVASCRIPT</p>

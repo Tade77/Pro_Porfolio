@@ -6,9 +6,7 @@ import "./Footer.scss";
 const Footer = ({ theme }) => {
   return (
     <div
-      className={`flex flex-row justify-between py-[8px] mx-auto bg-[#F9FAFB] border text-[#171717] py-[20px] px-[20.67px]  ${
-        theme === "dark" ? "dark" : "light"
-      }`}
+      className={`flex flex-row justify-between mx-auto bg-[#F9FAFB] border text-[#171717] py-[20px] px-[20.67px] `}
     >
       <MyDesc />
       <Mail />

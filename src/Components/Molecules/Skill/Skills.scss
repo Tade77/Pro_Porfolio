@@ -9,3 +9,9 @@
     @apply mb-[67px] text-[18px] leading-[18px] font-medium text-[#171717];
   }
 }
+.skills > .skills__langs {
+  @apply space-y-2;
+}
+.skills__langs {
+  @apply space-y-2;
+}
