@@ -14,7 +14,7 @@ const Calculator = () => {
             This Application is a simple calculator. It is built with react. It
             can be used to calculate simple arithmetics .
           </p>
-          <a href="https://twitter.com/code77">
+          <a href="https://engrtade-calculator.netlify.app">
             <p className="connect__btn">Visit Website--&gt;</p>
           </a>
         </aside>

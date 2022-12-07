@@ -16,7 +16,7 @@ const Cv = () => {
             daily sign in and sign out. After the user sign in, it will display
             the user info and the local time that the user sign in.
           </p>
-          <a href="https://twitter.com/code77">
+          <a href="https://engrtade-code771.netlify.app">
             <p className="connect__btn">Visit Website--&gt;</p>
           </a>
         </aside>

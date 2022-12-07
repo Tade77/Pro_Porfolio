@@ -16,7 +16,7 @@ const BmiCal = () => {
             understand the state of his/her body. It is built with HTML, CSS and
             Javascript .
           </p>
-          <a href="https://twitter.com/code77">
+          <a href="https://engrtade-bmi-calculator.netlify.app">
             <p className="connect__btn">Visit Website--&gt;</p>
           </a>
         </aside>

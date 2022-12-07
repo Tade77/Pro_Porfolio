@@ -15,7 +15,7 @@ const RandomNum = () => {
             of numbers in a rectangular shape that display numbers in RGB
             colors.
           </p>
-          <a href="https://twitter.com/code77">
+          <a href="https://randomnumbercolor.netlify.app">
             <p className="connect__btn">Visit Website--&gt;</p>
           </a>
         </aside>

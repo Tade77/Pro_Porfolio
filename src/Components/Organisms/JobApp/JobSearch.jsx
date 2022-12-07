@@ -16,7 +16,7 @@ const JobSearch = () => {
           users to input their data for job posting and newsletters. The App is
           still on development stage.
         </p>
-        <a href="https://twitter.com/code77">
+        <a href="https://jobsearchapp77.netlify.app">
           <p className="connect__btn">Visit Website--&gt;</p>
         </a>
       </aside>
