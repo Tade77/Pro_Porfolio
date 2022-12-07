@@ -30,11 +30,11 @@ const Navbar = ({ handleToggle, theme }) => {
         </NavLink>
       ))}
 
-      <Image
+      {/* <Image
         src={`/Frame 29551.png`}
         customClass={`toggle__btn ${theme}`}
         onClick={handleToggle}
-      />
+      /> */}
     </nav>
   );
 };

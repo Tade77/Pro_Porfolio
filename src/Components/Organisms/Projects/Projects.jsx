@@ -11,7 +11,7 @@ const Projects = ({ id, image, title, article, connect }) => {
       <aside className="project__description">
         <p className="project__title">{title}</p>
         <p className="project__article">{article}</p>
-        <Link to="/">
+        <Link to="">
           <p className="connect__btn">{connect}</p>
         </Link>
       </aside>
