@@ -1,5 +1,4 @@
 import React from "react";
-import { datas } from "../Components/Atoms/Data/Data";
 import PageLayout from "../Components/Template/PageLayout";
 import Contact_Btn from "../Components/Molecules/InfoButton/Contact_Btn";
 import MyIntro from "../Components/Molecules/MyIntro/MyIntro";
@@ -14,9 +13,10 @@ const Home = ({ handleToggle, theme }) => {
       <MyIntro />
       <AboutMe />
       <Intro />
-      {datas.map((data, id) => (
+      <Projects />
+      {/* {datas.map((data, id) => (
         <Projects key={id} {...data} />
-      ))}
+      ))} */}
       <Contact_Btn />
       <Social_Icons />
     </PageLayout>

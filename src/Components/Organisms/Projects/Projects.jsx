@@ -1,20 +1,19 @@
 import React from "react";
-import Image from "../../Atoms/Image";
-import { Link } from "react-router-dom";
+import BmiCal from "../Bmi/BmiCal";
+import Calculator from "../Calculator/Calculator";
+import Cv from "../CV/Cv";
+import JobSearch from "../JobApp/JobSearch";
+import RandomNum from "../Rgb/RandomNum";
+
 import "./Projects.scss";
-const Projects = ({ id, image, title, article, connect }) => {
+const Projects = () => {
   return (
-    <div className="project">
-      <aside className="project__image">
-        <Image src={image} customClass={`project__pics`} />
-      </aside>
-      <aside className="project__description">
-        <p className="project__title">{title}</p>
-        <p className="project__article">{article}</p>
-        <Link to="">
-          <p className="connect__btn">{connect}</p>
-        </Link>
-      </aside>
+    <div>
+      <JobSearch />
+      <Cv />
+      <Calculator />
+      <BmiCal />
+      <RandomNum />
     </div>
   );
 };
