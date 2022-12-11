@@ -1,15 +1,14 @@
-.about {
+#about {
   @apply flex grow;
+}
+#me {
+  @apply ml-[208px];
+}
 
-  &__me {
-    @apply ml-[208px];
-  }
+#bit {
+  @apply font-extrabold text-[40px] leading-[48px] text-[#171717];
+}
 
-  &__bit {
-    @apply font-extrabold text-[40px] leading-[48px] text-[#171717];
-  }
-
-  &__art {
-    @apply text-[18px] leading-[32px] w-[616px] h-[210px] text-[#4F4F4F];
-  }
+.art {
+  @apply text-[18px] leading-[32px] w-[616px] h-[210px] text-[#4F4F4F];
 }

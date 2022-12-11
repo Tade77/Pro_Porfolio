@@ -9,10 +9,10 @@ body {
 * {
   box-sizing: border-box;
 }
-/* }
+
 .body {
-  background-color: blue;
-} */
+  /* background-color: rgba(181, 156, 190, 0.1); */
+}
 
 .dark {
   background-color: rgba(20, 20, 20, 0.95);

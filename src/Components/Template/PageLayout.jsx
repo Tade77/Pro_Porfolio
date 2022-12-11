@@ -1,6 +1,6 @@
 import React from "react";
-import NavDesciption from "../Organisms/NavDesciption";
 import Footer from "../Molecules/Footer/Footer";
+import NavDesciption from "../Organisms/NavDesc/NavDesciption";
 const PageLayout = ({ children, handleToggle, theme }) => {
   return (
     <div className="body">

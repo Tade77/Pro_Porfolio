@@ -1,3 +1,6 @@
 .toggle__btn {
   @apply w-[32px] h-[32px] rounded-[5px] cursor-pointer;
 }
+#nav {
+  @apply flex space-x-2;
+}

@@ -8,7 +8,7 @@ import RandomNum from "../Rgb/RandomNum";
 import "./Projects.scss";
 const Projects = () => {
   return (
-    <div>
+    <div id="work">
       <JobSearch />
       <Cv />
       <Calculator />

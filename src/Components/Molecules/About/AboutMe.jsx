@@ -6,11 +6,11 @@ import "./AboutMe.scss";
 const AboutMe = () => {
   const aboutMe = `I'm a front-end developer, typically a problem-solver with passion for creating and making things work behind the scene. I have a broad skills in HTML, CSS, JavaScript and React. I'm hardworking and dedicated `;
   return (
-    <div className="about">
-      <div className="about__me">
+    <div id="about">
+      <div id="me">
         <p>ABOUT ME</p>
-        <p className="about__bit">A bit about me.</p>
-        <Article text={aboutMe} customClass={`about__art`} />
+        <p id="bit">A bit about me.</p>
+        <Article text={aboutMe} customClass={`art`} />
       </div>
       <aside>
         <Skills />
