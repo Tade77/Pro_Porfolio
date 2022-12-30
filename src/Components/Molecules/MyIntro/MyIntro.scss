@@ -13,3 +13,21 @@
     @apply text-blue-800;
   }
 }
+@media (max-width: 640px) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    &__hey {
+      // color: red;
+      font-size: 32px;
+      // text-align: center;
+    }
+    &__am {
+      font-size: 32px;
+
+      // margin-left: 40px;
+    }
+  }
+}

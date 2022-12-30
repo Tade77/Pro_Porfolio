@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../../Atoms/Image";
-
+import "./JobSearhStyle.scss";
 const JobSearch = () => {
   return (
     <div className="project">

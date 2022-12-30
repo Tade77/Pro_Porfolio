@@ -1,3 +1,11 @@
 #navGroup {
   @apply flex flex-row justify-between text-[#171717] py-[20px] px-[20.67px] border mx-auto;
 }
+@media (max-width: 640px) {
+  #navGroup {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    // color: blue;
+  }
+}

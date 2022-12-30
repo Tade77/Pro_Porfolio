@@ -12,3 +12,17 @@
 .art {
   @apply text-[18px] leading-[32px] w-[616px] h-[210px] text-[#4F4F4F];
 }
+@media (max-width: 760px) {
+  #about {
+    display: block;
+  }
+  #me {
+    margin-left: 20px;
+  }
+  .art {
+    width: 420px;
+    height: 120px;
+
+    // margin-bottom: 3rem;
+  }
+}

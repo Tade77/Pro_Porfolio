@@ -24,7 +24,7 @@ const Navbar = ({ handleToggle, theme }) => {
   //   },
   // ];
   return (
-    <nav id="nav">
+    <nav id="nav" className="nav">
       <AnchorLink href="#home">
         <span>Home</span>
       </AnchorLink>

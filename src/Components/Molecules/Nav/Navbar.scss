@@ -4,3 +4,8 @@
 #nav {
   @apply flex space-x-2;
 }
+@media (max-width: 760px) {
+  #nav {
+    color: blue;
+  }
+}

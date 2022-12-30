@@ -14,9 +14,6 @@ const Home = ({ handleToggle, theme }) => {
       <AboutMe />
       <Intro />
       <Projects />
-      {/* {datas.map((data, id) => (
-        <Projects key={id} {...data} />
-      ))} */}
       <Contact_Btn />
       <Social_Icons />
     </PageLayout>

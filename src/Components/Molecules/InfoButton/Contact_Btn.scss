@@ -8,3 +8,19 @@
 .contactBtn__web {
   @apply text-[40px] leading-[58px] text-[#F9FAFB] font-extrabold;
 }
+@media (max-width: 760px) {
+  .contactBtn {
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+    &__btn {
+      font-size: 18px;
+      line-height: 4px;
+    }
+    &__web {
+      font-size: 18px;
+
+      // margin-bottom: 3px;
+    }
+  }
+}

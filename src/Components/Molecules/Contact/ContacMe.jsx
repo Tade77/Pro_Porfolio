@@ -6,10 +6,6 @@ import Button from "../../Atoms/Button";
 import "./ContactMe.scss";
 
 const ContacMe = () => {
-  const [isChat, setIsChat] = useState(false);
-  const handleChat = () => {
-    setIsChat(true);
-  };
   const myInfo = `  I'm a Junior Frontend developer with a passion for everything in front-end. 
   Welcome to my corner of the internet. I'm glad you're here!`;
   return (
@@ -18,11 +14,8 @@ const ContacMe = () => {
       <Button
         label={`Let's chat -->`}
         customClass={`info__chat`}
-        onClick={() => {
-          handleChat;
-        }}
+        onClick={() => {}}
       />
-      {isChat && <Link to="linkedin"></Link>}
     </div>
   );
 };

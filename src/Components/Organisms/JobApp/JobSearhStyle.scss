@@ -1,0 +1,14 @@
+@media (max-width: 760px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    margin-left: 2.5rem;
+  }
+  .project__description {
+    margin-left: 1rem;
+  }
+  .project__title {
+    font-size: 28px;
+  }
+}

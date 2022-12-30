@@ -9,3 +9,12 @@
     @apply whitespace-pre text-[48px] leading-[58px] font-extrabold mb-[64px];
   }
 }
+@media (max-width: 760px) {
+  .pro__header {
+    margin-left: 40px;
+    &__txt {
+      font-size: 38px;
+      line-height: 36px;
+    }
+  }
+}

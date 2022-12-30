@@ -16,7 +16,7 @@ const MyIntro = () => {
         <ContacMe />
       </div>
 
-      <div>
+      <div className="pic">
         <Picture />
       </div>
     </div>

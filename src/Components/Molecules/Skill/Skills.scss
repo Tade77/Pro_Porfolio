@@ -15,3 +15,9 @@
 .skills__langs {
   @apply space-y-2;
 }
+@media (max-width: 760px) {
+  .skills {
+    margin-top: 50px;
+    margin-left: 67px;
+  }
+}
